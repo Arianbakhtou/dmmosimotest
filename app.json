@@ -12,11 +12,11 @@
       "description": "Telegram Bot Token. Make Sure You Send Start Message to bot",
       "value": "token"
     },
-    "APP_ID": {
+    "API_ID": {
       "description": "Your Telegram API ID. Get it from my.telegram.org",
       "value": "12345"
     },
-    "APP_HASH": {
+    "API_HASH": {
       "description": "Your Telegram API HASH. Get it from my.telegram.org",
       "value": "12345abc"
     },
