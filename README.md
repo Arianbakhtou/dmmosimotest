@@ -1,6 +1,6 @@
 
 # Telegram DM Forward Bot
-A Telegram written in Pyrogram to Forward Messages Through Telegram Bot. 
+A Telegram Bot written in Pyrogram to Forward Messages Through Telegram Bot. 
 
 
 ## Features
