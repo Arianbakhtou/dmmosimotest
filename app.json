@@ -1,0 +1,40 @@
+{
+  "name": "Telegram DM Forward Bot",
+  "description": "A Telegram bot forward Message",
+  "repository": "https://github.com/NasirHossainAkash/",
+  "logo": "https://telegra.ph/file/868fb2ffb810411228787.png",
+  "keywords": [
+    "telegram",
+    "DM Forward Bot"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token. Make Sure You Send Start Message to bot",
+      "value": "token"
+    },
+    "APP_ID": {
+      "description": "Your Telegram API ID. Get it from my.telegram.org",
+      "value": "12345"
+    },
+    "APP_HASH": {
+      "description": "Your Telegram API HASH. Get it from my.telegram.org",
+      "value": "12345abc"
+    },
+    "USERNAME": {
+      "description": "Your telegram username. Without @. ",
+      "value": "PrimeAkash"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+   
+  ]
+}
